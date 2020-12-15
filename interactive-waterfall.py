@@ -11,6 +11,8 @@ import plotly
 import plotly.express as px
 import plotly.graph_objects as go
 
+server = app.server
+
 df = pd.read_csv("testdata1-m.csv")
 
 app = dash.Dash(__name__)
