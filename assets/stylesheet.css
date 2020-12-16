@@ -1,12 +1,17 @@
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro Light';
   src: url(SourceSansPro-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Reg';
+  src: url(SourceSansPro-Regular.ttf);
 }
 
 p {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Light';
         
 }
 
@@ -37,7 +42,7 @@ p {
     background:#bc99e0;   
     padding:0.5rem 0.75rem;
     
-    font-family:'Source Sans Pro';
+    font-family:'Source Sans Pro Regular';
     font-size:12px;
 }
 
@@ -58,7 +63,7 @@ p {
   }
 
 h1 {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Regular';
     padding-left: 20px;
     padding-right: 20px;
 }
