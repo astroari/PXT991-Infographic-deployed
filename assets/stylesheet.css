@@ -67,3 +67,14 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.definitions {
+    font-family: 'Source Sans Pro Reg';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.albedo {
+    font-family: 'Source Sans Pro Light';
+}
