@@ -68,6 +68,10 @@ h1 {
     padding-right: 20px;
 }
 
+.agents {
+    font-family: 'Source Sans Pro Reg';
+}
+
 .definitions {
     font-family: 'Source Sans Pro Reg';
     padding-left: 20px;
