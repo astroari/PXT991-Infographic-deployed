@@ -30,6 +30,12 @@ app.layout = html.Div([
         html.P(["Some of the agents are ", html.Span("natural ", style={'color': '#3FA0A0'}), "while others originate from ", html.Span("human ", style={'color': '#bc99e0'}), "activity."], className="agents"),
 
     ]),
+    html.Div([
+        html.Details([
+            html.Summary('Useful definitions'),
+            html.Div('Albedo: measure of how much incident light is reflected by an object. A completely black object - perfect absorber - would have an albedo of 0, while a white object would have an albedo of 1.', className="albedo")
+        ], className="definitions")
+    ]),    
 html.Div([
             dcc.Checklist(
                 id='my_checklist',                      # used to identify component in callback
