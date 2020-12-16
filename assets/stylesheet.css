@@ -8,10 +8,20 @@
   src: url(SourceSansPro-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Source Sans Pro SemiBold';
+  src: url(SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url(SourceSansPro-Bold.ttf);
+}
+
 p {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Source Sans Pro Light';
+    font-family: 'Source Sans Pro Reg';
         
 }
 
@@ -63,22 +73,22 @@ p {
   }
 
 h1 {
-    font-family: 'Source Sans Pro Reg';
+    font-family: 'Source Sans Pro Bold';
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .agents {
-    font-family: 'Source Sans Pro Reg';
+    font-family: 'Source Sans Pro SemiBold';
 }
 
 .definitions {
-    font-family: 'Source Sans Pro Reg';
+    font-family: 'Source Sans Pro SemiBold';
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
 .albedo {
-    font-family: 'Source Sans Pro Light';
+    font-family: 'Source Sans Pro Reg';
 }
