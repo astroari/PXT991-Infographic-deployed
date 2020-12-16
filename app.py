@@ -33,7 +33,7 @@ app.layout = html.Div([
     html.Div([
         html.Details([
             html.Summary('Useful definitions'),
-            html.Div('Albedo: measure of how much incident light is reflected by an object. A completely black object - perfect absorber - would have an albedo of 0, while a white object would have an albedo of 1.', className="albedo")
+            html.Div('Albedo: a measure of how much incident light is reflected by an object. A completely black object - perfect absorber - would have an albedo of 0, while a white object would have an albedo of 1.', className="albedo")
         ], className="definitions")
     ]),    
 html.Div([
