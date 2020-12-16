@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+}
+
 p {
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Source Sans Pro';
         
 }
 
@@ -32,7 +37,7 @@ p {
     background:#bc99e0;   
     padding:0.5rem 0.75rem;
     
-    font-family:'Open Sans';
+    font-family:'Source Sans Pro';
     font-size:12px;
 }
 
@@ -53,7 +58,7 @@ p {
   }
 
 h1 {
-    font-family: 'Open Sans';
+    font-family: 'Source Sans Pro';
     padding-left: 20px;
     padding-right: 20px;
 }
