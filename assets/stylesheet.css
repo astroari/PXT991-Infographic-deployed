@@ -90,5 +90,23 @@ h1 {
 }
 
 .albedo {
-    font-family: 'Source Sans Pro Reg';
+    font-family: 'Source Sans Pro Reg'; 
+}
+
+.natural {
+    display: inline-block;
+    color: black;
+    background-color: #49B6B6;
+    border-radius: 10%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.human {
+    display: inline-block;
+    color: black;
+    background-color: #bc99e0;
+    border-radius: 10%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
 }
