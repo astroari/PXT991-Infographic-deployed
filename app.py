@@ -15,7 +15,7 @@ import gunicorn
 app = dash.Dash(__name__)
 server = app.server
 
-df = pd.read_csv("testdata1-m.csv")
+df = pd.read_csv("rfdata.csv")
 
 app.layout = html.Div([
     html.Div([
@@ -43,7 +43,7 @@ html.Div([
                          {'label': x, 'value': x, 'disabled':False}
                          for x in df['Source'].unique()
                          ],
-                value=['Carbon Dioxide','Methane','Ice/snow Albedo','Solar irradiance' ,'Net total'],    # values chosen by default
+                value=['Carbon Dioxide','Methane','Albedo (Land use)','Solar irradiance' ,'Net total'],    # values chosen by default
 
                 className='my_box_container',           
                 style={'display':'flex'},            
@@ -58,7 +58,7 @@ html.Div([
         ]),
 
         html.Div([
-            dcc.Graph(id='the_graph')
+        dcc.Graph(id='the_graph')
     ]),
    
 
