@@ -33,7 +33,13 @@ app.layout = html.Div([
     html.Div([
         html.Details([
             html.Summary('Useful definitions'),
-            html.Div('Albedo: a measure of how much incident light is reflected by an object. A completely black object - perfect absorber - would have an albedo of 0, while a white object would have an albedo of 1.', className="albedo")
+            html.P("Albedo: a measure of how much incident light is reflected by an object. A completely black object - perfect absorber - would have an albedo of 0, while a white object would have an albedo of 1. An example of this is the replacement of forests with agricultural land. Crops tend to be more reflective than forests and hence increase the Earth's albedo.", className="albedo"),
+            html.P('Stratospheric Ozone: ozone in the stratosphere absorbs energy and partially reemits it back into space.', className="strozone"),
+            html.P("Black carbon on snow: carbon from fossil fuels gets trapped in ice changing their colour to black, which lowers the albedo and causes the Ice to absorb sunlight as opposed to reflecting it.", className="blacksnow"),
+            html.P("Aerosols: these particles contribute negatively towards radiative forcing, but due to their short atmospheric lifetimes they can not be counted on to counteract the long term effects of greenhouse gases.", className="aerosols"),
+            html.P("Aerosol cloud albedo effect: the aerosols decrease the precipitation efficiency and hence inhibit clouds from being formed. This causes a lot of heat to radiate away at night that would otherwise be insulated by the clouds."),
+            html.P("Contrails: these are caused by water vapour in the air condensing around waste particles from the combustion process of the plane engines. These are a type of ice cloud and are analogous to clouds in the sense that they both thermally insulate the Earth, which prevents heat from escaping it."),
+            html.P("Solar irradiance: natural variations in the Sun's irradiance as measured on Earth. This is the only truly non-anthropogenic source of radiative forcing.")
         ], className="definitions")
     ]),    
 html.Div([
